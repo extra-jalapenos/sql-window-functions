@@ -5,6 +5,6 @@ SELECT
 	EXTRACT(month from start_date) as month
 FROM `sql-sandbox-20240505.DataAnalytics.sf_bikeshare_2015`
 GROUP BY EXTRACT(month from start_date)
-ORDER BY nr_trips DESC
+ORDER BY avg_trips_bike DESC
 
--- July, with 32476 trips
+-- August, with 53.801011804384487 trips per bike
